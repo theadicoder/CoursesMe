@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoursesMe - Transform Your Future With Online Learning</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="youtube.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="logo">
+            <i class="fas fa-graduation-cap"></i>
+            <span>CoursesMe</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-item">Home</a></li>
+            <li><a href="#courses" class="nav-item">Courses</a></li>
+            <li><a href="#features" class="nav-item">Features</a></li>
+            <li><a href="https://chatgpt.com/share/67bde899-4234-800e-b158-6eb0333eec63" class="nav-item">About</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Learn Without Limits</h1>
+            <p>Access world-class education from anywhere. Start your learning journey today.</p>
+            <div class="cta-group">
+                <button class="cta-button primary"><a style="color:#10b981" href="https://udemyfreecourses.org/ajax/search.php">Browse Courses</a></button>
+                <button class="cta-button secondary">Join Free</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Courses</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50k+</span>
+                    <span class="stat-label">Students</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4.8</span>
+                    <span class="stat-label">Rating</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="courses" id="courses">
+        <div class="nav-search">
+            <input type="text" id="nav-search-input" placeholder="Search certified.. course...">
+            <button id="nav-search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <h2>Discover Your Next Course</h2>
+        <p class="section-subtitle">Learn from the best instructors worldwide</p>
+        <div class="course-filters">
+            <button class="filter-btn active" data-topic="web development">Web Dev</button>
+            <button class="filter-btn" data-topic="python programming">Python</button>
+            <button class="filter-btn" data-topic="data science">Data Science</button>
+        </div>
+        <div id="loading" class="loading">
+            <i class="fas fa-spinner fa-spin"></i>
+            Loading courses...
+        </div>
+        <div id="courses-grid" class="course-grid">
+            <!-- Courses will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>Why Choose CoursesMe</h2>
+        <p class="section-subtitle">Learn from the best, anywhere, anytime</p>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-certificate"></i>
+                <h3>Certified Courses</h3>
+                <p>Get certified from recognized institutions and boost your career.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Expert Instructors</h3>
+                <p>Learn from industry experts with real-world experience.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-clock"></i>
+                <h3>Flexible Learning</h3>
+                <p>Study at your own pace with lifetime access to courses.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p class="section-subtitle">Our journey to excellence</p>
+                <p class="about-description">
+                    We're passionate about creating solutions that empower businesses to achieve more. 
+                    With years of experience and dedication, we've helped countless organizations transform their ideas into reality.
+                </p>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Countries</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://www.businessmanager.in/wp-content/uploads/2022/04/Effective-Team-Work-768x432.jpg" alt="Our Team">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

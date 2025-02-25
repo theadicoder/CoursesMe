@@ -1,2 +1,0 @@
-# CoursesMe
-Here Courses 

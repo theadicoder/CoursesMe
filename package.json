@@ -1,0 +1,14 @@
+{
+  "name": "coursesme",
+  "version": "1.0.0",
+  "description": "Online learning platform",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "ytdl-core": "^4.11.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
